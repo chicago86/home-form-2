@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+body {
+  font: 400 20px/1.45 "Lato", sans-serif;
+  background: #bac5db;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 665px;
+}
+.ba-nsleter {
+  max-width: 665px;
+  /* height: 383px; */
+  box-shadow: 0 26px 49px rgba(35, 70, 133, 0.28);
+  border-radius: 24px;
+  background-color: #353a45;
+  margin-top: 180px;
+}
+.ba-position {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.forma__1 {
+  text-align: right;
+  padding: 10px 10px 0 0;
+}
+.forma {
+  border: 3px solid #4d5975;
+  border-radius: 50%;
+  padding: 8px;
+}
+.fomrma__2 {
+  position: relative;
+  bottom: 50px;
+  width: 92px;
+  height: 92px;
+  box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.13);
+  background-color: #000000;
+  background-image: linear-gradient(59deg, #47aae6 0%, #9372bf 100%);
+  border-radius: 50%;
+}
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+.forma2 {
+  padding: 30px 25px;
+}
+.forma3 {
+  position: relative;
+  bottom: 94px;
+}
+.ba-nsleter__heading {
+  margin-top: 53px;
+  color: #538fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+.ba-nsleter__text {
+  font-size: 22px;
+}
+.ba-nsleter__last {
+  color: #787d87;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 33.6px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.ba-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #538fff;
+  margin-left: 13px;
+  text-transform: uppercase;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+  background-color: #4577d3;
+  cursor: pointer;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  width: 370px;
+  height: 50px;
+  box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: 1px solid #d4d2d2;
+  background-color: #ffffff;
+  color: #4577d3;
+  padding-left: 10px;
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+}
